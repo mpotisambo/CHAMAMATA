@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Chamamata</title>
+<!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+
+<body class="bg-light">
+
+<div class="container">
+<div class="py-5 text-center">
+        <img class="d-block mx-auto mb-4" src="./img/chamamata.jpg" alt="" width="200" height="90">
+        <h2>Fomu ya uwanachama</h2>
+        <p class="lead">Karibu Chama Cha Madereva Malori Tanzania (CHAMAMATA) Jisajili hapo chini</p>
+      </div>
+<fieldset>
+  
+  <form name="frmContact" class="needs-validation " method="GET" action="contact.php">
+    <p>
+      <label for="Name">Jina </label>
+      <input type="text" class="form-control" name="txtName" id="txtName" placeholder="Name" value="" required>
+	  <div class="invalid-feedback">
+                  Valid first name is required.
+                </div>
+    </p>
+    <p>
+        <label for="age">Umri</label>
+        <input type="number"  class="form-control"  name="txtumri" id="txtumri"  value="" required>
+      </p>
+
+    <p>
+      <label for="email">Email</label>
+      <input type="text"  class="form-control"  name="txtEmail" id="txtEmail" placeholder="Email" value="" required>
+    </p>
+    <p>
+      <label for="phone">Namba ya simu</label>
+      <input type="text"  class="form-control" name="txtPhone" id="txtPhone" placeholder="Phone" value="" required>
+    </p>
+    <p>
+        <label for="Platenumber">Plate Namba</label>
+        <input type="text"  class="form-control" name="txtnum" id="txtnum" placeholder="plate number" value="" required>
+      </p>
+
+      <p>
+        <label for="license">Namba ya leseni</label>
+        <input type="text"  class="form-control" name="txtleseni" id="txtleseni" placeholder="namba ya leseni" value="" required>
+      </p>
+
+    <p>
+      <label for="message">Maelezo ya gari</label>
+      <textarea name="txtMessage" class="form-control"  id="txtMessage"  placeholder="Maelezo ya gari" required></textarea>
+    </p>
+    <p>&nbsp;</p>
+    <p>
+      <input type="submit" name="Submit" id="Submit" value="Jisajili"  class="btn btn-primary btn-lg btn-block">
+    </p>
+  </form>
+</fieldset>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>

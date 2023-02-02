@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# users
+
+RewriteCond %{REQUEST_METHOD} GET
+
+RewriteRule ^users$ api-get-users.php [NC,L]
+
+RewriteCond %{REQUEST_METHOD} POST
+RewriteRule ^users$ contact.php [NC,L]
